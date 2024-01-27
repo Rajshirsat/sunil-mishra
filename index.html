@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sunil Mishra</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Hobbies</a></li>
+          <li><a href="#projects">Special</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sunil Mishra</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Hobbies</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Special</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./logosunil.jpg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sunil Mishra</h1>
+        <p class="section__text__p2">Content Creator</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://youtube.com/@sunilmishra_travelsvlogs?si=m6miu3g_xbMVTk8')"
+          >
+            YouTube
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='https://www.instagram.com/sunil_mishra23?igsh=NGVhN2U2NjQ0Yg== '">
+            Instagram
+          </button>
+        </div>
+       
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://i.pinimg.com/564x/d6/0f/f4/d60ff4b4a19bb59bca9e72741b156827.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>Financial Analysis • Analytical Skills • Data Analysis</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://i.pinimg.com/564x/2d/3e/10/2d3e1010d900bbe48926d78a57a8c351.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BBA In Vishakhapatnam<br />MBA in Finance From SBUP</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                " Enthusiastic and detail-oriented MBA Finance graduate with a strong academic foundation in financial management, investment analysis, and corporate finance. Adept at utilizing analytical skills to derive meaningful insights and contribute to effective decision-making.
+                Seeking an entry-level position in finance to leverage skills in financial modeling, data analysis, and risk management ❤️. "
+              </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Habbits</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hobbies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://i.pinimg.com/564x/93/a1/a5/93a1a5769d5c2153583264793d19c546.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                    <h3>Painting</h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.pinimg.com/564x/ae/b6/c1/aeb6c1aa1a5ef1f01c7d4de314749424.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Video Editing</h3>
+                    <p></p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.pinimg.com/736x/4c/b3/e8/4cb3e834744d6ffe55d1ccf6d850add1.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Traveling</h3>
+                    <p></p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.pinimg.com/564x/79/f2/48/79f248c53c6d9e4ac7dcb8f0261b3a18.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Explore Nature</h3>
+                    <p></p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.pinimg.com/564x/30/33/0d/30330d87a6dfbb86b2b879c84151726e.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Playing Badminton</h3>
+                    <p></p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.pinimg.com/736x/27/07/eb/2707ebe3f9114547b13a6ad01daf5f51.jpg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Watching Sports</h3>
+                    <p></p>
+                  </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Social Handle's</h2>
+            <div class="article-container">
+                <article>
+                    <img
+                      src="https://i.pinimg.com/564x/31/23/9a/31239a2f70e4f8e4e3263fafb00ace1c.jpg"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>YouTube</h3>
+                      <p></p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="https://i.pinimg.com/564x/70/28/a4/7028a4e1988d4e9b8f7f4dbb4fb603db.jpg"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Instagram</h3>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="https://i.pinimg.com/564x/8a/15/b6/8a15b646a6856d20854c2ac22623d971.jpg"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Linkedin</h3>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Some Special Moments</p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            <img src="https://i.ibb.co/wK90RtF/instapost3.jpg" alt="instapost3" border="0"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title"></h2>
+          <div class="btn-container">
+            </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://i.ibb.co/rxndHvv/instapost2.jpg" alt="instapost2" border="0"
+             
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title"></h2>
+          <div class="btn-container">
+           
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://i.ibb.co/vHZfQCD/instapost1.jpg" alt="instapost1" border="0"
+              class="project-img"
+            />
+          </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+        
+        <div class="contact-info-container">
+          <img
+          src="https://i.pinimg.com/564x/70/28/a4/7028a4e1988d4e9b8f7f4dbb4fb603db.jpg"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="https://www.instagram.com/sunil_mishra23?igsh=NGVhN2U2NjQ0Yg== ">Instagram</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="https://i.pinimg.com/564x/8a/15/b6/8a15b646a6856d20854c2ac22623d971.jpg"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/sunil-mishra-%F0%9F%87%AE%F0%9F%87%B3-b6786b223/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Habits</a></li>
+          <li><a href="#projects">Memories</a></li>
+        </ul>
+      </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sunil Mishra. All Rights Reserved.</p>
+      <p>Art By - Raj Shirsat ! </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
